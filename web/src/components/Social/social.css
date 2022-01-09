@@ -1,0 +1,15 @@
+.social {
+  /* position: absolute; */
+  display: flex;
+  bottom: 60px;
+}
+
+.social i {
+  padding: 10px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+
+.social i:hover {
+  color: #0093e8;
+}

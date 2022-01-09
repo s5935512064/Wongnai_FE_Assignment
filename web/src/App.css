@@ -1,0 +1,18 @@
+:root {
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --typing-font: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  width: 100vw;
+  min-width: 100vh;
+}
