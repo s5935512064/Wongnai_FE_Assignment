@@ -7,6 +7,7 @@
   transition: 0.3s;
   animation: ease-in;
   padding: 1rem;
+  margin-bottom: 20px;
 }
 
 .card-container:hover {
@@ -27,12 +28,13 @@
 
 .image-container img {
   overflow: hidden;
+  box-shadow: 0 0 10px -5px;
   border-radius: 8px;
   height: 200px;
   width: 250px;
 }
 
-h3,
+h2,
 p {
   margin: 0;
   padding: 0;
@@ -42,7 +44,14 @@ p {
   text-align: center;
   margin-bottom: 0.5rem;
 }
-
+.card-title a {
+  text-decoration: none;
+  color: black;
+}
+.card-title a :hover {
+  text-decoration: none;
+  color: #0093e8;
+}
 .card-body {
   text-align: left;
   margin-bottom: 0.5rem;
@@ -63,11 +72,13 @@ p {
 .info {
   border-color: #2196f3;
   color: dodgerblue;
+  text-decoration: none;
 }
 
 .info:hover {
   background: #2196f3;
   color: white;
+  text-decoration: none;
 }
 .card-tag {
   display: inline;
@@ -76,6 +87,14 @@ p {
 .card-tag ul li {
   display: inline;
   margin: 5px;
+}
+.card-tag a {
+  text-decoration: none;
+  color: rgb(158, 158, 158);
+}
+.card-tag a:hover {
+  text-decoration: underline;
+  color: #2196f3;
 }
 
 ul.no-bullets {
@@ -103,6 +122,7 @@ ul.no-bullets {
 }
 .card-photo img {
   overflow: hidden;
+  box-shadow: 0 0 10px -5px;
   border-radius: 8px;
   height: 100px;
   width: 150px;

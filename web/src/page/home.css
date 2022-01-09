@@ -20,4 +20,34 @@
 .title {
   color: #0093e8;
   margin-bottom: 1rem;
+  font-size: 50px;
+}
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchInput {
+  width: 60vw;
+  padding: 12px 20px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #9a9b9c;
+  text-align: center;
+}
+
+.searchInput:focus-visible {
+  outline: none;
+}
+
+.searchInput::placeholder {
+  font-family: "Prompt", sans-serif;
+  font-size: 16px;
+}
+
+.resetBtn {
+  font-size: 16px;
+  border: none;
+  margin-left: 10px;
 }

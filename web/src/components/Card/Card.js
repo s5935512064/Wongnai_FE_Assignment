@@ -13,8 +13,8 @@ const Card = ({ title, description, img, tags, photos, url }) => {
       </div>
       <div className="card-content">
         <div className="card-title">
-          <a href={url}>
-            <h3>{title}</h3>
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            <h2>{title}</h2>
           </a>
         </div>
         <div className="card-body">
@@ -27,10 +27,12 @@ const Card = ({ title, description, img, tags, photos, url }) => {
         </div>
         <div className="card-tag">
           <ul className="no-bullets">
-            หมวด
+            <span>หมวด</span>
             {tags.map((item) => (
               <li key={item}>
-                <a href="#">{item}</a>
+                <a href={item} target="_blank" rel="noopener noreferrer">
+                  {item}
+                </a>
               </li>
             ))}
           </ul>
